@@ -10,8 +10,17 @@ namespace FirstConsoleApp
     {
         static void Main(string[] args)
         {
-            int num = Convert.ToInt32("45");
-            Console.WriteLine(num*2);
+            //Variables
+            int num1;
+            int num2;
+
+            Console.Write("Enter number: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter another number: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num1 + num2);
         }
     }
 } 
