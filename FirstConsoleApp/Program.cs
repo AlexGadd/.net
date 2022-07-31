@@ -11,14 +11,14 @@ namespace FirstConsoleApp
         static void Main(string[] args)
         {
             //Variables
-            int num1;
-            int num2;
+            double num1;
+            double num2;
 
             Console.Write("Enter number: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter another number: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine(num1 + num2);
         }
