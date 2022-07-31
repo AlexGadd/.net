@@ -10,11 +10,8 @@ namespace FirstConsoleApp
     {
         static void Main(string[] args)
         {
-            string characterName = "George";
-            int characterAge = 50;
-
-            Console.WriteLine(characterName + " " + characterAge);
-
+            int num = Convert.ToInt32("45");
+            Console.WriteLine(num*2);
         }
     }
 } 
