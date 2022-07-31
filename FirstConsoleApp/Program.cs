@@ -10,7 +10,11 @@ namespace FirstConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            string characterName = "George";
+            int characterAge = 50;
+
+            Console.WriteLine(characterName + " " + characterAge);
+
         }
     }
 } 
